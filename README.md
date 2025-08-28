@@ -80,6 +80,7 @@ charts.value = [centerChart, ...otherCharts];
 
 1. Clone o repositório:  
 ```bash
+https://github.com/Jovi-souza/bubble-mood.git
 ```
 
 2. Entre no repositório:
