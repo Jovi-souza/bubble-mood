@@ -85,7 +85,7 @@ function calculateCharts(data, width, height) {
   const centerX = width / 2;
   const centerY = height / 2;
 
-  const centerNode = {
+  const centerChart = {
     ...maxItem,
     r: centerR,
     x: centerX,
@@ -110,7 +110,7 @@ function calculateCharts(data, width, height) {
     };
   });
 
-  charts.value = [centerNode, ...otherCharts];
+  charts.value = [centerChart, ...otherCharts];
 }
 
 function getChartOption(chart) {
