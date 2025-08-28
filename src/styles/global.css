@@ -1,0 +1,17 @@
+
+.v-popper__inner div {
+  width: 6rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  color: #fff;
+  font-size: 13px;
+  white-space: nowrap;
+
+  padding: 2px 0px;
+}
+
+.custom-tooltip strong {
+  text-transform: capitalize;
+}
