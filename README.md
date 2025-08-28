@@ -32,7 +32,7 @@ const centerR = getRadius(maxItem.total, baseRadius, maxTotal);
 const centerX = width / 2;
 const centerY = height / 2;
 
-const centerNode = {
+const centerChart = {
   ...maxItem,
   r: centerR,
   x: centerX,
@@ -75,6 +75,9 @@ const otherCharts = others.map((d, i) => {
 
 charts.value = [centerChart, ...otherCharts];
 ```
+
+## Demo funcional publicada na Vercel
+https://bubble-mood.vercel.app
 
 ## Como Rodar Localmente
 
